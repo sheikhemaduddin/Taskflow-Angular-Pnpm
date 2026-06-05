@@ -4,7 +4,7 @@
   "description": "TaskFlow — Project management with Kanban, Gantt, burndown charts",
   "scripts": {
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build && cp -r dist/taskflow-angular/browser/. dist/taskflow-angular/",
     "test": "ng test"
   },
   "dependencies": {
