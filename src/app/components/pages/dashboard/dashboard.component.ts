@@ -3,8 +3,6 @@ import { RouterLink } from "@angular/router";
 import { TaskService } from "../../../services/task.service";
 import { BaseChartDirective } from "ng2-charts";
 import { ChartData } from "chart.js";
-import { Chart, CategoryScale, LinearScale, BarElement, PointElement, LineElement, ArcElement, Tooltip, Legend, Filler } from "chart.js";
-Chart.register(CategoryScale, LinearScale, BarElement, PointElement, LineElement, ArcElement, Tooltip, Legend, Filler);
 
 const PRIORITY_COLOR: Record<string,string> = {low:"#10b981",medium:"#f59e0b",high:"#f97316",critical:"#ef4444"};
 

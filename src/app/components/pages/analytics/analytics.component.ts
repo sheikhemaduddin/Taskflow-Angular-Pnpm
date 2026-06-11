@@ -2,8 +2,6 @@ import { Component, OnInit, OnDestroy } from "@angular/core";
 import { TaskService } from "../../../services/task.service";
 import { BaseChartDirective } from "ng2-charts";
 import { ChartData } from "chart.js";
-import { Chart, CategoryScale, LinearScale, BarElement, PointElement, LineElement, ArcElement, RadialLinearScale, Tooltip, Legend, Filler } from "chart.js";
-Chart.register(CategoryScale, LinearScale, BarElement, PointElement, LineElement, ArcElement, RadialLinearScale, Tooltip, Legend, Filler);
 
 @Component({
   selector:"app-analytics", standalone:true, imports:[BaseChartDirective],
