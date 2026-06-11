@@ -1,6 +1,7 @@
 {
   "name": "taskflow-angular",
   "version": "1.0.0",
+  "packageManager": "pnpm@11.5.2",
   "description": "TaskFlow — Project management with Kanban, Gantt, burndown charts",
   "scripts": {
     "start": "ng serve",
