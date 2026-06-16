@@ -28,5 +28,6 @@ pnpm run build        # compile to dist/taskflow-angular
 | Install command | `pnpm install` |
 | Build command | `pnpm run build` |
 | Output directory | `dist/taskflow-angular` |
+| Node version | `>=18.13.0` (see `.nvmrc`) |
 
-The build flattens Angular's `browser/` output so `index.html` is served from the publish root.
+The build flattens Angular's `browser/` output so `index.html` is served from the publish root. On pnpm 11 hosts, `pnpm-workspace.yaml` must allow `esbuild` build scripts.
