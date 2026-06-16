@@ -16,3 +16,16 @@ pnpm install
 pnpm start      # http://localhost:4200
 pnpm build
 ```
+
+## Deploy (Cloudways / static hosting)
+```bash
+pnpm install          # install dependencies
+pnpm run build        # compile to dist/taskflow-angular
+```
+
+| Setting | Value |
+|---------|-------|
+| Build command | `pnpm run build` |
+| Output directory | `dist/taskflow-angular` |
+
+The build flattens Angular's `browser/` output so `index.html` is served from the publish root.
