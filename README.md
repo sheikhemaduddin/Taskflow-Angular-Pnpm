@@ -25,6 +25,7 @@ pnpm run build        # compile to dist/taskflow-angular
 
 | Setting | Value |
 |---------|-------|
+| Install command | `pnpm install` |
 | Build command | `pnpm run build` |
 | Output directory | `dist/taskflow-angular` |
 
